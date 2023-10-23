@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+header {
+  background-color: bisque;
+  width: 100%;
+  height: 80px;
+}
+
+img {
+  width: 180px;
+  height: 200px;
+  border-radius: 0px;
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+nav > ul {
+  padding-left: 10px;
+}
+nav > ul > li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+}
+nav > ul > li > a {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  padding: 60px;
+  text-decoration: none;
+  margin: 1px;
+}
+.Airdrops {
+  margin: 30px;
+  padding-left: 33%;
+
+  padding-top: 0.9%;
+  display: flex;
+}
+
+.airdropInfo {
+  margin: 45px;
+  padding-left: 40px;
+  text-align: left;
+  line-height: 0.9;
+}
+.airdropInfo > p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.airdropInfo > h1 {
+  font-size: 1.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+#about {
+  width: 25%;
+  line-height: 1.2;
+  margin-left: 38%;
+  padding: 10px;
+  margin-top: -0.8%;
+  border-radius: 10px;
+}
+
+#about > h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+  padding-left: 1%;
+  margin-top: 5px;
+}
+.project {
+  /* border: 1px solid; */
+}
+
+.project > img {
+  margin: 50px;
+  width: 250px;
+  height: 200px;
+}
+.project > h3,
+.project > p {
+  padding-left: 7px;
+  line-height: 1.5;
+  text-align: center;
+}
+#Contact{
+    text-align: center;
+}
+}
