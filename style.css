@@ -60,9 +60,8 @@ nav > ul > li > a {
   font-weight: 500;
 }
 .airdropInfo > h1 {
-  font-size: 1.8rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 400;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #about {
@@ -100,7 +99,10 @@ nav > ul > li > a {
   line-height: 1.5;
   text-align: center;
 }
-#Contact{
-    text-align: center;
+#Contact {
+  text-align: center;
 }
+#footer {
+  text-align: center;
+  border: 50px;
 }
